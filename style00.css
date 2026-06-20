@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;;
 }
 
 .animated {
@@ -151,6 +152,8 @@ header ul {
 
 header ul li {
     margin: 0 15px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 header ul li a {
@@ -201,13 +204,14 @@ section h1 {
 
 .user {
     color: #f8f8f8;
-    text-shadow: 0 0 8px #71077f;
+    font-size: 60px;
 
 }
 
 .userone {
     display: flex;
     margin-bottom: 10px;
+     font-size: 60px;
 }
 
 .habilits {
@@ -349,7 +353,8 @@ article {
     color: #f8f8f8;
     border: none;
     width: 100vw;
-    transform: translateY(50px);
+    margin-top: 12rem;
+     align-items: center;
 }
 
 .sobre-min {
@@ -358,7 +363,7 @@ article {
     justify-content: center;
     gap: 20px;
     height: 50%;
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
 
 .infor-sobremin {
