@@ -448,18 +448,28 @@ article {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 20rem;
-    width: 14rem;
-    border: 2px solid #fff;
+    height: 10rem;
+    width: 18rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     flex-wrap: wrap;
+    background-color: rgba(53, 100, 210, 0.309);
     
 }
 
+.projects-name a{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
 .img-projects{
     width: 100%;
-    height: 6rem;
+    height: 7rem;
     object-fit: cover;
+    background-position: center;
 }
 
 @keyframes degrade {
