@@ -9,6 +9,7 @@ body {
     text-transform: uppercase;;
 }
 
+/* animações de fundo */
 .animated {
     z-index: -1000;
     position: fixed;
@@ -110,8 +111,9 @@ body {
         opacity: 0;
     }
 }
+/* animações de fundo fim */
 
-
+/* barra de navegação */
 header {
     position: fixed;
     top: 0;
@@ -178,7 +180,10 @@ header ul li a:hover {
     cursor: pointer;
 
 }
+/* fim da barra de navegação */
 
+
+/* inicio do conteúdo principal */ 
 main {
     transform: translateY(300px);
     margin: 0px 70px;
@@ -202,9 +207,25 @@ section h1 {
     margin-top: 30px;
 }
 
-.infor a{
+.main-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 18px 32px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.main-icon a{
     text-decoration: none;
-    flex-direction: row-reverse;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .user {
@@ -218,7 +239,10 @@ section h1 {
     margin-bottom: 10px;
      font-size: 60px;
 }
+/* Fim do conteúdo principal */
 
+
+/* Conteúdo de habilidades e metodologias */
 .habilits {
     margin-top: 12rem;
     height: 70%;
@@ -267,20 +291,6 @@ section h1 {
     text-shadow: 0 0 1px #f3eff4;
 }
 
-#edin {
-    align-items: center;
-    justify-content: center;
-    padding: 20px 40px;
-    border-radius: 5px;
-    color: #fff;
-    background: linear-gradient(90deg, #090731cc 0%, #71077fcc 100%);
-    border: 2px solid #71077f;
-    font-weight: 600;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    box-shadow: 0 0 9px #71077fcc;
-}
 .metodology{
     color: #f8f8f8;
     font-weight: 600;
@@ -338,21 +348,10 @@ section h1 {
 
 }
 
-.git {
-    color: black;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%);
-    border: 2px solid #fff;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 20px 40px;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+/* Fim do Conteúdo de habilidades e metodologias */
 
 
-}
-
+/* Conteúdo sobre o usuário */
 article {
     display: flex;
     color: #f8f8f8;
@@ -393,8 +392,10 @@ article {
     filter: drop-shadow(1px 1px 20px #f6f7f7de);
 
 }
+/* Fim do conteúdo sobre o usuário */ 
 
 
+/* Início do conteúdo de referência */
 .blog {
     background: rgba(132, 163, 241, 0.431);
     box-shadow: #f688f33d 0px 3px 8px;
@@ -424,6 +425,10 @@ article {
 
 
 }
+/* Fim do conteúdo de referência */ 
+
+
+/* Início do conteúdo de projetos  */ 
 .projects{
     height: 18rem;
     width: 100vw;
@@ -481,13 +486,77 @@ article {
     color: #00d4ff;
     transition: all 0.3s ease;
 }
+/* Fim do conteúdo de projetos   */
 
+/* Início de ocamento */
+.orcamento{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 12rem;
+    align-items: center;
+    width: 100vw;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(10%);
+    margin-top: 12rem;
+    
+    
+}
+
+
+.orcamento-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    height: 100%;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.orcamento-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 18px 32px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.orcamento-button a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.icon-svg{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 130px;
+    color: white;
+    filter: drop-shadow(1px 1px 20px #f6f7f7de);
+}
+
+/* Início do conteúdo de contato  */
 footer {
     background: #090731cc;  
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    margin-top: 20px;
+    margin-top: 20rem;
 
 }
 
@@ -502,7 +571,9 @@ footer a {
     text-decoration: none;
      padding: 0px 5px;
 }
+/* Fim de Conteúdo de contato  */ 
 
+/* Responsive Design */ 
 footer a:hover {
     color: #00d4ff;
     transition: all 0.3s ease;
