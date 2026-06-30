@@ -642,10 +642,13 @@ footer a:hover {
 
    }
 
+   #header{
+     width: 100%;
+   }
+
     .user{
         font-size: 1.6rem;
         text-transform: capitalize;
-        width: 100%;
     }
 
     .userone{
