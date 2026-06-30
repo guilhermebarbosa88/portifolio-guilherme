@@ -671,7 +671,7 @@ footer a:hover {
     }
 
     .habilits-container {
-
+        display: flex;
         align-items: center;
         justify-content: center;
 
