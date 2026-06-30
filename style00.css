@@ -314,7 +314,6 @@ section h1 {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    Justify-content: center;
 }
 
 .metodology-item{
@@ -668,6 +667,7 @@ footer a:hover {
         width: 100%;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     .imgsobre {
