@@ -670,6 +670,13 @@ footer a:hover {
         text-align: center;
     }
 
+    .habilits-container {
+
+        align-items: center;
+        justify-content: center;
+
+    }
+
     .imgsobre {
         height: 300px;
         width: auto;
