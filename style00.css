@@ -648,11 +648,12 @@ footer a:hover {
 
     .user{
         font-size: 1.6rem;
-        text-transform: capitalize;
     }
 
     .userone{
-        font-size: 1.6rem;
+        font-size: 10;
+        text-transform: capitalize;
+
     }
 
     .infor-sobremin {
