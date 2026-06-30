@@ -245,7 +245,7 @@ section h1 {
 /* Conteúdo de habilidades e metodologias */
 .habilits {
     margin-top: 12rem;
-    height: 70%;
+    height: 26rem;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -254,6 +254,7 @@ section h1 {
     justify-items: center;
     text-align: center;
     align-items: center;
+    width: 100%;
 }
 
 .habilits-container {
