@@ -287,14 +287,14 @@ section h1 {
 
 .habilits-title {
     color: #f8f8f8;
-    font-size: 20px;
+    font-size: 1.6rem;
     font-weight: 700;
     text-shadow: 0 0 8px #71077f;
 
 }
 
 .hab-p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     margin-top: 10px;
 }
 
@@ -707,10 +707,6 @@ footer a:hover {
     
     }
 
-    .hab-p {
-    font-size: 1.6rem;
-    margin-top: 10px;
-}
     .habilits-container{
         display: flex;
         align-items: center;
