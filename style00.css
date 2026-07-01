@@ -286,21 +286,22 @@ section h1 {
 }
 
 #habilits-title{
-    color: black;
-    font-size: 1.6rem;
+    color: white;
+    font-size: 1rem;
     font-weight: 700;
     text-shadow: 0 0 8px #71077f;
 
 }
 
 .hab-p {
-    font-size: 1rem;
+    font-size: 14px;
     margin-top: 10px;
 }
 
 .habilits-item {
     gap: 10px;
     margin: 30px;
+    font-size: 9px;
 }
 
 
@@ -601,7 +602,7 @@ footer a:hover {
 }
 
 /* para celulares */
-@media (max-width: 450px) {
+@media (max-width: 768px) {
     
 
     #btn-Mobile {
@@ -686,7 +687,7 @@ footer a:hover {
         
     }
     .user{
-        font-size: 2.6rem;
+        font-size: 2.3rem;
     }
 
     .userone{
@@ -707,15 +708,23 @@ footer a:hover {
     
     }
 
+    .habilits-item{
+        gap: 3px;
+        margin: 10px;
+        margin-top: 15px;
+    }
     .habilits-container{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 3px;
+        gap: 5px;
+    }
+    #icon{
+        font-size: 30px;
     }
 
     #habilits-title{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .imgsobre {
         height: 300px;
