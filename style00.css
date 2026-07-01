@@ -263,25 +263,26 @@ section h1 {
 /* Conteúdo de habilidades e metodologias */
 .habilits {
     margin-top: 12rem;
-    height: 26rem;
+    height: 16rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
     justify-content: center;
     justify-items: center;
     text-align: center;
     align-items: center;
     width: 100%;
+    
 }
 
 .habilits-container {
     color: #f8f8f8;
     display: flex;
-    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
     text-align: center;
+    gap: 20px;
+    
 }
 
 .habilits-title {
@@ -298,9 +299,8 @@ section h1 {
 }
 
 .habilits-item {
-    padding: 20px;
-    border-radius: 5px;
-    border: 2px solid #fff;
+    gap: 10px;
+    margin: 30px;
 }
 
 
@@ -312,18 +312,16 @@ section h1 {
 .metodology{
     color: #f8f8f8;
     font-weight: 600;
-    font-size: 8px;
     border-radius: 5px;
     transition: all 0.3s ease;
     cursor: pointer;
     height: 12rem;
     align-content: center;
-    margin-top: 4rem;
     display: flex;
     align-items: center;
     flex-direction: column;
      justify-content: center;
-     gap: 20px;
+     width: 100%;
     
 }
 
@@ -331,29 +329,20 @@ section h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .metodology-item{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    color: #f8f8f8;
-    width: 50%;
-    line-height: 1.5;
     margin-top: 2rem;
-    align-items: center;
-    border: #ffffff 2px solid;
-    padding: 10px 16px;
-    height: 100%;
-     transition: all 0.3s ease;
+    align-items: center;    
      justify-content: center;
-     border-radius: 5px;
-    
 }
 #metodology-title {
     color: #f8f8f8;
-    font-size: 20px;
+    font-size: 1.6rem;
     font-weight: 700;
     align-items: center;
     justify-content: center;
@@ -611,6 +600,7 @@ footer a:hover {
     }
 }
 
+/* para celulares */
 @media (max-width: 450px) {
     
 
@@ -727,12 +717,7 @@ footer a:hover {
         justify-content: center;
 
     }
-    .habilits-item {
-        padding: 10px;
-        border-radius: 5px;
-        border: 2px solid #fff;
-        
-    }
+   
 
     .imgsobre {
         height: 300px;
