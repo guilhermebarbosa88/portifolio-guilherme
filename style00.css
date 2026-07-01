@@ -613,6 +613,9 @@ footer a:hover {
 
 @media (min-width: 320px) and (max-width: 767px) {
     
+    body {
+        width: 100%;
+    }
 
     #btn-Mobile {
         display: block;
@@ -657,6 +660,9 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    justify-items: center;
+   margin:0px;
+
     }
 
     .header-content{
@@ -676,7 +682,7 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     gap: 2px;
-    padding: 10px 22px;
+    padding: 8px 18px;
     border: 2px solid #fff;
     border-radius: 5px;
     color: #fff;
@@ -693,7 +699,7 @@ footer a:hover {
         
     }
     .user{
-        font-size: 2rem;
+        font-size: 2.6rem;
     }
 
     .userone{
@@ -714,6 +720,8 @@ footer a:hover {
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin-left: 0px;
+         margin-right: 0px;
     }
 
     .habilits-container {
@@ -721,6 +729,12 @@ footer a:hover {
         align-items: center;
         justify-content: center;
 
+    }
+    .habilits-item {
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #fff;
+        
     }
 
     .imgsobre {
