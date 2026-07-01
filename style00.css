@@ -658,12 +658,12 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    padding: 18px 32px;
+    padding: 10px 22px;
     border: 2px solid #fff;
     border-radius: 5px;
     color: #fff;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.7);
 }
     
@@ -679,7 +679,7 @@ footer a:hover {
     }
 
     .userone{
-        font-size: 1px;
+        font-size: 13px;
         text-transform: capitalize;
 
     }
