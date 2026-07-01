@@ -611,11 +611,8 @@ footer a:hover {
     }
 }
 
-@media (min-width: 760px) {
+@media (max-width: 760px) {
     
-    body {
-        width: 100%;
-    }
 
     #btn-Mobile {
         display: block;
