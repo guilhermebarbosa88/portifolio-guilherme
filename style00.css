@@ -605,10 +605,6 @@ footer a:hover {
 
 @media (max-width: 760px) {
     
-    #content-container{
-        width: 100%;
-        padding: 0px;
-    }
 
     #btn-Mobile {
         display: block;
@@ -646,7 +642,9 @@ footer a:hover {
         overflow-y: auto;
 
     }
-
+    #logo{
+        font-size: 1.2rem;
+    }
     .user{
         font-size: 2.8rem;
         margin-right: 1px;
