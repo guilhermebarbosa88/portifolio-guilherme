@@ -703,20 +703,9 @@ footer a:hover {
     }
     .habilits{
         display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-left: 0px;
-         margin-right: 0px;
+    
     }
 
-    .habilits-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
     .habilits-container{
         display: flex;
         align-items: center;
