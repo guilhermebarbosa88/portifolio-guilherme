@@ -285,9 +285,9 @@ section h1 {
     
 }
 
-.habilits-title {
+.habilits-title{
     color: #f8f8f8;
-    font-size: 2.6rem;
+    font-size: 1.6rem;
     font-weight: 700;
     text-shadow: 0 0 8px #71077f;
 
@@ -714,7 +714,9 @@ footer a:hover {
         gap: 3px;
     }
 
-
+    .habilits-title{
+        font-size: 1.6rem;
+    }
     .imgsobre {
         height: 300px;
         width: auto;
