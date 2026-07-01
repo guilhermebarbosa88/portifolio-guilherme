@@ -703,6 +703,7 @@ footer a:hover {
     }
     .habilits{
         display: flex;
+         gap: 3px;
     
     }
 
