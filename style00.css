@@ -646,16 +646,33 @@ footer a:hover {
     }
     #header{
     transform: translateY(180px);
-    }
-    .infor{
-        font-size: 14px;
+
     }
 
     #logo{
         font-size: 16px;
     }
+
+    .main-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 7px 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.7);
+}
     
-    
+    .infor{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
     .user{
         font-size: 1.8rem;
         margin-right: 1px;
