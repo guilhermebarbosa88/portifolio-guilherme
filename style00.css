@@ -645,8 +645,12 @@ footer a:hover {
 
     }
     #header{
-    transform: translateY(100px);
+    transform: translateY(180px);
     }
+    .infor{
+        font-size: 14px;
+    }
+
     #logo{
         font-size: 16px;
     }
