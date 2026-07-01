@@ -8,7 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;;
 }
-
+ .content-container{
+        width: 100%;
+        padding: 0px;
+    }
 /* animações de fundo */
 .animated {
     z-index: -1000;
@@ -114,15 +117,20 @@ body {
 /* animações de fundo fim */
 
 /* barra de navegação */
+
+.menu {
+    display: flex;
+
+}
 header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 9999;
-    margin: 20px 10px;
+    margin:0px;
     
 }
 
@@ -130,15 +138,15 @@ header .logo {
     color: #fff;
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    margin-left: 20px;
-    gap: 10px;
+    margin-left: 5px;
+    gap: 3px;
 }
 
 #logo {
-    padding: 0px 30px;
+    padding: 0px 10px;
 }
 
 .logo a {
@@ -149,7 +157,7 @@ header .logo {
 header ul {
     display: flex;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 header ul li {
@@ -185,8 +193,8 @@ header ul li a:hover {
 
 /* inicio do conteúdo principal */ 
 main {
-    transform: translateY(300px);
-    margin: 0px 70px;
+    transform: translateY(200px);
+    margin-left: 40px;
     height: 36rem;
 
 }
@@ -355,7 +363,7 @@ article {
     display: flex;
     color: #f8f8f8;
     border: none;
-    width: 100vw;
+    width: 100%;
     margin-top: 6rem;
      align-items: center;
 }
@@ -400,7 +408,7 @@ article {
     background: rgba(132, 163, 241, 0.431);
     box-shadow: #f688f33d 0px 3px 8px;
     backdrop-filter: blur(10px);
-    width: 100vw;
+    width: 100%;
     gap: 10px;
     display: flex;
     flex-direction: column;
@@ -431,7 +439,7 @@ article {
 /* Início do conteúdo de projetos  */ 
 .projects{
     height: 18rem;
-    width: 100vw;
+    width: 100%;
     margin-top: 12rem;
     display: flex;
     flex-direction: column;
@@ -595,21 +603,21 @@ footer a:hover {
 
 @media (max-width: 760px) {
     
-    body{
+    .content-container{
         width: 100%;
         padding: 0px;
     }
 
-    #btn-Mobile {
+    .btn-Mobile {
         display: block;
 
     }
 
-    #nav{
+    .nav{
         margin-right: 0px;
     }
 
-    #menu {
+    .menu {
         display: block;
         position: absolute;
         width: 100%;
@@ -622,10 +630,9 @@ footer a:hover {
         visibility: hidden;
 
 
-
     }
 
-    #menu li {
+    .menu li {
         text-align: center;
         margin-top: 50px;
         border-bottom: 1px solid rgba(127, 122, 122, 0.9);
@@ -637,16 +644,6 @@ footer a:hover {
         overflow-y: auto;
 
     }
-
-   #header-inicio{
-
-    font-size: 14px;
-
-   }
-
-   #header{
-     width: 100%;
-   }
 
     .user{
         font-size: 2.8rem;
