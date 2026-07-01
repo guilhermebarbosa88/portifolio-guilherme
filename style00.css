@@ -717,7 +717,13 @@ footer a:hover {
         justify-content: center;
 
     }
-   
+    .habilits-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
 
     .imgsobre {
         height: 300px;
