@@ -595,7 +595,10 @@ footer a:hover {
 
 @media (max-width: 760px) {
     
-
+    body{
+        width: 100%;
+        padding: 0px;
+    }
 
     #btn-Mobile {
         display: block;
