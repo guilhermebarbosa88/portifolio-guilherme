@@ -200,7 +200,7 @@ header ul li a:hover {
 
 /* inicio do conteúdo principal */ 
 main {
-    transform: translateY(200px);
+    transform: translateY(250px);
     margin-left: 40px;
     height: 36rem;
 
@@ -252,14 +252,14 @@ section h1 {
 
 .user {
     color: #f8f8f8;
-    font-size: 8rem;
+    font-size: 7rem;
 
 }
 
 .userone {
     display: flex;
     margin-bottom: 10px;
-     font-size: 2rem;
+     font-size: 1.6rem;
 }
 /* Fim do conteúdo principal */
 
