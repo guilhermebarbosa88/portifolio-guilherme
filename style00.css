@@ -137,10 +137,12 @@ header {
     
 }
 
-.idioma {
-    display: inline-flex;
-    list-style: none;
-    margin-right: 30px;
+#language-select{
+    background-color: #090731cc;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #img-header{
