@@ -137,8 +137,8 @@ header {
     
 }
 
-#language-select{
-    background-color: #d3d3d6cc;
+#language-select{   
+    background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
     padding: 5px 10px;
