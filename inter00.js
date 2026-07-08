@@ -24,7 +24,7 @@ const traducao = {
         projetos:"Projetos",
         projetone:"Projeto 1",
         orcamento:"Solicite um Orçamento",
-        orcamentodescrition: "Se você está interessado em contratar meus serviços ou deseja discutir um projeto, entre em contato comigo para solicitar um orçamento personalizado. Estou disponível para colaborar em projetos de desenvolvimento web, análise de dados e muito mais. Clique abaixo para solicitar um orçamento.",
+        orcamentosdescrition: "Se você está interessado em contratar meus serviços ou deseja discutir um projeto, entre em contato comigo para solicitar um orçamento personalizado. Estou disponível para colaborar em projetos de desenvolvimento web, análise de dados e muito mais. Clique abaixo para solicitar um orçamento.",
         solicitaorcamento: "Solicitar Orçamento",
         footer: "&copy; 2026 Meu Portfólio. Todos os direitos reservados."
    
@@ -45,7 +45,7 @@ const traducao = {
         projetos: "Projects",
         projetone: "Project One",
         orcamento:"Request a Quote",
-        orcamentodescrition:"If you are interested in hiring my services or wish to discuss a project, please contact me to request a personalized quote. I am available to collaborate on web development projects, data analysis, and much more. Click below to request a quote.",
+        orcamentosdescrition:"If you are interested in hiring my services or wish to discuss a project, please contact me to request a personalized quote. I am available to collaborate on web development projects, data analysis, and much more. Click below to request a quote.",
         solicitaorcamento: "Request a Quote",
         footer:"© 2026 My Portfolio. All rights reserved."
     
