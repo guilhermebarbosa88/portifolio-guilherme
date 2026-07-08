@@ -41,15 +41,12 @@
                 </span>
             </button>
             <ul id="menu" class="menu">
-                <li><a data-key="inicio" href="#header" href="#header-inicio">Inicio</a></li>
-                <li><a data-key="habilidades" href="#Habilidades">Habilidades</a></li>
-                <li><a data-key="projetos" href="#Projetos">Projetos</a></li>
-                <li><a data-key="contato" href="#contato">Contato</a></li>
-               <label for="language-select"></label>
-                <select id="language-select" onchange="changeLanguage()">
-                    <option value="pt">Português</option>
-                    <option value="en">English</option>
-                </select>
+                <li><a data-i18n="inicio" href="#header" href="#header-inicio">Inicio</a></li>
+                <li><a data-i18n="habilidades" href="#Habilidades">Habilidades</a></li>
+                <li><a data-i18n="projetos" href="#Projetos">Projetos</a></li>
+                <li><a data-i18n="contato" href="#contato">Contato</a></li>
+                <button id="portugues" onclick="changeLanguage('pt')">Português</button>
+                <button id="english" onclick="changeLanguage('en')">English</button>
             </ul>
 
         </nav>
