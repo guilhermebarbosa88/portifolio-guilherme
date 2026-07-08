@@ -136,6 +136,13 @@ header {
     justify-items: center;  
     
 }
+
+.idioma {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
 #img-header{
    display: none;
 }
