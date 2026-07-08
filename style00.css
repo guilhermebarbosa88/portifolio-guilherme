@@ -212,7 +212,7 @@ header ul li a:hover {
 
 /* inicio do conteúdo principal */ 
 main {
-    transform: translateY(250px);
+    transform: translateY(230px);
     margin-left: 40px;
     height: 36rem;
 
