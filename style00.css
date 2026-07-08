@@ -217,6 +217,12 @@ main {
     height: 36rem;
 
 }
+
+#engrenagem{
+    font-size: large;
+    color: white;
+}
+
 .header-content {
     display: flex;
     flex-direction: column;
