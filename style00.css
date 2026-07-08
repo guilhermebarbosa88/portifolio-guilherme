@@ -221,7 +221,7 @@ main {
 #engrenagem{
     font-size: 12rem;
     color: white;
-    animation: girar 4s linear infinite;
+    animation: engrenagem 4s linear infinite;
     transform-origin: center;
 }
 @keyframes engrenagem {
