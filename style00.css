@@ -710,6 +710,10 @@ footer a:hover {
 
     }
 
+    #engrenagem{
+    display: none;
+}
+
     .header-content{
         display: flex;
         flex-direction: column;
