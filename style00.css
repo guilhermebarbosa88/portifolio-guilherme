@@ -221,7 +221,18 @@ main {
 #engrenagem{
     font-size: 12rem;
     color: white;
+    animation: girar 4s linear infinite;
+    transform-origin: center;
 }
+@keyframes engrenagem {
+ from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .header-content {
     display: flex;
